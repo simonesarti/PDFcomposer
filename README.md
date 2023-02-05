@@ -15,7 +15,7 @@ python path/to/PDFcomposer.py
 
 ## Arguments
 <code>fin</code>: 
-List of input file paths with their corresponding names. 
+List of input file paths with their corresponding names, separated by the '@' character. 
 The names can be assigned arbitrarily, they are only used to easily identify the files from which you want to 
 take the pages that will make up the new PDF.
 
