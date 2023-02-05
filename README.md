@@ -33,11 +33,11 @@ found in the same output path.
 ```
 python PDFcomposer.py \
 --fin \
-red@C:.examples/red.pdf 
-blue@C:./examples/blue.pdf \
-green@C:./examples/green.pdf \
+R@C:.examples/red.pdf 
+B@C:./examples/blue.pdf \
+G@C:./examples/green.pdf \
 --fout ./examples/mix.pdf \
---struct [red,1]-[green,(5,6)]-[blue,9]-[red,(1,2,3)]-[blue,(6,7)] \
+--struct [R,1]-[G,(5,6)]-[B,9]-[R,(1,2,3)]-[B,(6,7)] \
 --overwrite True
 ```
 
