@@ -1,8 +1,9 @@
 # PDFcomposer
 
 A script that allows you to freely interleave and concatenate the pages (single pages or page ranges) 
-of many PDFs into a new single PDF file. It can also be used to extract a subset of pages from a single 
-PDF file.
+of many PDFs into a new single PDF file. 
+
+It can also be used to extract one or more subsets of pages from a single PDF file.
 
 ## how to run
 ```
