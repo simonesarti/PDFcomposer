@@ -36,7 +36,7 @@ found in the same output path.
 ```
 python PDFcomposer.py \
 --fin \
-R@./examples/red.pdf 
+R@./examples/red.pdf \
 B@./examples/blue.pdf \
 G@./examples/green.pdf \
 --fout ./examples/mix.pdf \
