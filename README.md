@@ -5,7 +5,7 @@ of many PDFs into a new single PDF file.
 
 It can also be used to extract one or more subsets of pages from a single PDF file.
 
-## how to run
+## How to run
 ```
 python path/to/PDFcomposer.py
 --fin <name1@path/to/file1.pdf> [<name2@path/to/file2.pdf> ... <nameN@path/to/fileN.pdf>] 
