@@ -1,0 +1,9 @@
+python PDFcomposer.py ^
+--fin ^
+red@C:.\examples\red.pdf ^
+blue@C:.\examples\blue.pdf ^
+green@C:.\examples\green.pdf ^
+--fout .\examples\mix_test.pdf ^
+--struct [red,(1,9)]-[blue,10]-[green,(4,6)]-[blue,(5,10)] ^
+--overwrite True
+
