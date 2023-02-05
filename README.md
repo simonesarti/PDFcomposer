@@ -16,14 +16,16 @@ python path/to/PDFcomposer.py
 ## Arguments
 <code>fin</code>: 
 List of input file paths with their corresponding names. 
-The names are used to easily identify the files from which you want to extract the pages that will make up the new PDF.
+The names can be assigned arbitrarily, they are only used to easily identify the files from which you want to 
+take the pages that will make up the new PDF.
 
 <code>fout</code>: 
 Path where the produced PDF file is saved.
 
 <code>struct</code>: 
 The desired structure of the new PDF file.
-Pages are extracted from the input files in the order in which the blocks are specified.
+Pages are taken from the input files in the order in which the blocks are specified.
+When ranges are specified, all pages between the two extremes (included) are taken from the input file.
 
 <code>overwrite</code>: 
 Specify this argument and set it to True if you want to allow the generated output file to overwrite an existing file 
