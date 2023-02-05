@@ -37,7 +37,7 @@ R@./examples/red.pdf
 B@./examples/blue.pdf \
 G@./examples/green.pdf \
 --fout ./examples/mix.pdf \
---struct [R,1]-[G,(5,6)]-[B,9]-[R,(1,2,3)]-[B,(6,7)] \
+--struct [R,1]-[G,(5,6)]-[B,9]-[R,(1,3)]-[B,(6,7)] \
 --overwrite True
 ```
 
