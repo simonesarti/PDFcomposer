@@ -36,7 +36,7 @@ python PDFcomposer.py \
 red@C:.examples/red.pdf 
 blue@C:./examples/blue.pdf \
 green@C:./examples/green.pdf \
---fout ./examples/mix_test.pdf \
+--fout ./examples/mix.pdf \
 --struct [red,1]-[green,(5,6)]-[blue,9]-[red,(1,2,3)]-[blue,(6,7)] \
 --overwrite True
 ```
